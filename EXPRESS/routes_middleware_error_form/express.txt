@@ -1,0 +1,14 @@
+express
+------------
+manages everything from receving the request and givving the response
+
+//routes
+facebook.com/
+youtube.com/profile
+
+
+//middleware
+client-->(req)-->middleware1(do something)-->middleware2(do something)-->routes-->middleware(error handler)
+
+
+//form handling 
