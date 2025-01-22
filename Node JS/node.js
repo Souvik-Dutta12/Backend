@@ -1,24 +1,28 @@
 const fs = require('fs');
-fs.writeFile("hey.txt","hey hello kaise ho ", function(err){
-    if(err) console.log(err);
+fs.writeFile("hey.txt","I am do that again", function(err){
+    if(err) console.error(err);
     else    console.log("done")
 })
 
 
-fs.readFile("hey.txt",function (err,data) {
-    if(err) console.error(err);
-    else    console.log(data)
-})
+// fs.readFile("hey.txt",function (err,data) {
+//     if(err) console.error(err);
+//     else    console.log(data)
+// })
 
-// fs.appendFile("hey.txt","mai to achha hu  ", function(err){
-//     if(err) console.log(err);
+// fs.appendFile("hey.txt"," because, I forgot all backend", function(err){
+//     if(err) console.error(err);
 //     else    console.log("done")
 // })
 
 
 
 // fs.rename("hey.txt", "hello.txt", function (err) {
-//     if (err) console.log(err);
+//     if (err) console.error(err);
+//     else console.log("done")
+// })
+// fs.rename("hello.txt", "hey.txt", function (err) {
+//     if (err) console.error(err);
 //     else console.log("done")
 // })
 

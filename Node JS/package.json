@@ -1,5 +1,5 @@
 {
-  "name": "node-js",
+  "name": "nodejs",
   "version": "1.0.0",
   "main": "scipt.js",
   "scripts": {
@@ -8,9 +8,14 @@
   },
   "author": "Souvik",
   "license": "ISC",
-  "description": "",
+  "description": "It is about Node Js",
   "dependencies": {
     "accessibility": "^3.0.9",
     "one-liner-joke": "^1.2.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Souvik-Dutta12/Backend.git"
   }
 }

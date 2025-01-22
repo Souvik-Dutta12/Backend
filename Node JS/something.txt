@@ -1,5 +1,10 @@
-nodejs is a js rutime environment 
+
+//Introduction to Node JS
+nodejs is a js rutime environment
+
+
 npm -> Borrow someones code
+//initailization
 npm init -> package.json
 
 
