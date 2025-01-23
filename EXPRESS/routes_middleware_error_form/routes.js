@@ -3,14 +3,14 @@ const express = require('express');
 const app = express();
 
 //middleware
-// app.use(function(req, res, next ){
-//     console.log('middleware chala');
-//     next();
-// });
-// app.use(function(req, res, next ){
-//     console.log('middleware chala aur akbar');
-//     next();
-// });
+app.use(function(req, res, next ){
+    console.log('middleware chala');
+    next();
+});
+app.use(function(req, res, next ){
+    console.log('middleware chala aur akbar');
+    next();
+});
 
 
 
@@ -38,4 +38,6 @@ app.use((err, req, res, next) => {
     console.error(err.stack)
     res.status(500).send("Something Went Wrong, We don't have any idea");
   })
+
+  
 app.listen(3000);

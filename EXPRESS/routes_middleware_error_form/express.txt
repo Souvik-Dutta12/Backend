@@ -1,14 +1,17 @@
 express
 ------------
+npm package
+frame work
 manages everything from receving the request and givving the response
 
 //routes
 facebook.com/
 youtube.com/profile
-
+app.get(route, requestHandler);
+->request handler is an middleware.
 
 //middleware
 client-->(req)-->middleware1(do something)-->middleware2(do something)-->routes-->middleware(error handler)
+app.use(function(req,res,next){});
 
-
-//form handling 
+//error handler
