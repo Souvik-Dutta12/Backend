@@ -159,4 +159,7 @@ However, the path that you provide to the express.static function is relative to
 const path = require('path')
 app.use('/static', express.static(path.join(__dirname, 'public')))
 ```
-## Next note you got in //ExpressGuide.md file
+## After //ExpressBasic.md file(2nd)
+** ALL PROCESSES WHICH ARE MENTiONED HERE ALL ARE DONE WRT, MY PC ONLY
+
+## 5. Routing
