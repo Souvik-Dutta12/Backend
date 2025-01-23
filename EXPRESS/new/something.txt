@@ -1,9 +1,0 @@
-Express
----------
-Framework
---> Manages everythin fro receving the request and giving the response
-
-///Routes
---------------------
-facebook.com/
-youtube.com/
