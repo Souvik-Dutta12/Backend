@@ -2,6 +2,13 @@ const express = require('express');
 
 const app = express();
 
+
+//form handling
+app.use(express.json());
+app.use(express.urlencoded({extended: true}));
+
+
+
 //middleware
 app.use(function(req, res, next ){
     console.log('middleware chala');
@@ -11,12 +18,6 @@ app.use(function(req, res, next ){
     console.log('middleware chala aur akbar');
     next();
 });
-
-
-
-//form handling
-// app.use(express.json());
-// app.use(express.urlencoded({extended: true}));
 
 
 
@@ -39,5 +40,5 @@ app.use((err, req, res, next) => {
     res.status(500).send("Something Went Wrong, We don't have any idea");
   })
 
-  
+
 app.listen(3000);

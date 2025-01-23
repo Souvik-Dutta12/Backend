@@ -14,4 +14,12 @@ app.get(route, requestHandler);
 client-->(req)-->middleware1(do something)-->middleware2(do something)-->routes-->middleware(error handler)
 app.use(function(req,res,next){});
 
+
 //error handler
+app.use((err, req, res, next) => {
+    console.error(err.stack)
+    res.status(500).send("Something Went Wrong, We don't have any idea");
+})
+
+//cookie
+use in login and log out
