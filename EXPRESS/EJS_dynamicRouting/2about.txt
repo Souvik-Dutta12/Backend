@@ -1,4 +1,4 @@
-setting up parsers for from
+setting up parsers for form
 
 setting uo ejs for ejs pages
     install ejs from npm 
@@ -11,3 +11,6 @@ setting public static files
 dynamic routing
     dynamic  routing
     how to get data coiming from frontend at backend route
+
+//with the help of req.params we can get the dynamic part from route
+//req.params is an object
