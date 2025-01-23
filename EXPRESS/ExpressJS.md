@@ -1,4 +1,4 @@
-# Express
+# Express JS
 Express is a npm package. It is a frame work. It manages everything from receving the request and giving the response.
 
 ## Documentation
