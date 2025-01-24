@@ -2,12 +2,14 @@ data sotrage:
     aisa kuch jaha par hum saree users ki data store kr sakte hai-->database
 
 type:
-1>SQL     2>No SQL( mongoDB)
+1>SQL(data store in table format)
+2>No SQL( mongoDB)(data store in object format)
 
 we read No SQL i object format
 {
     age:25
 }
+
 
 
 Database  --> Collection  --> Document
