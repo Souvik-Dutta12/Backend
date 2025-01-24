@@ -20,11 +20,6 @@ CODE
 
 
 
-CODE                            DATABASE
---------------------------------------------------------------------------------------------------
-mongoose.connect  -->           database create
-model create      -->           Collection
-CREATE Code       -->           Document
 
 
 

@@ -24,7 +24,7 @@ app.get('/update', async (req,res)=>{
 //and findOneAndUpdate returns an object
 app.get('/read', async (req,res)=>{
     
-    let User = await userModel.find({username: "Souvik-Dutta12"});
+    let User = await userModel.findOne({username: "Souvik-Dutta12"});
     res.send(User);
 })
 app.get('/delete', async (req,res)=>{
