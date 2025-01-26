@@ -27,7 +27,13 @@ app.post("/create", async (req,res)=>{
         email,
         image
     });
-    res.send(createdUser);
+    res.redirect("/read");
 })
+
+app.get("/delete/:id", async (req,res)=>{
+    let users = await userModel.findOneAndDelete({_id:req.params.id});
+    res.redirect("/read");
+})
+
 
 app.listen(3000);
